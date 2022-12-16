@@ -6,12 +6,6 @@
     <body>
     <h1><center>Login Page</center></h1>
     
-    <?php
-
-        // Check connection
-        include "dbConnect.php";
-    
-    ?>
 
     <!-- Get keyword from user -->
     <form class="form-horizontal" action="processLoginUnsecure.php" method="post">
@@ -26,9 +20,17 @@
         <input id="password" name="code" type="text" placeholder="" class="form-control input-md"><br><br>
 
 
-        <input type="submit" value="Submit">
-    </form>
+        <input type="submit" value="Submit"><br>
+
+        </form>
+    <h3>This is a test</h3>
     
+    <?php
+
+        // Check connection
+        include "dbConnect.php";
+    
+    ?>
     <!-- <div class="form-group">
         <div class="col-md-4">
             <p class="help-block">Enter your code from the authenticator app</p>
