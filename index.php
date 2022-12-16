@@ -8,16 +8,7 @@
     <a href="loginPage.php">    LOGIN   </a><br>
     <a> OR </a><br>
     <a href="registerUser.php">REGISTER HERE</a><hr>
-    
-    <?php
 
-        // Check connection
-        include "dbConnect.php";
-
-
-        // include "getAllJokes.php";
-    
-    ?>
 
     <!-- Get keyword from user -->
     <form action="searchKeyword.php">
